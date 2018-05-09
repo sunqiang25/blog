@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load blog_tags %}
+{% block body %}
+<h2 style="text-align: center">请上传需要修改的头像图片</h2>
+    <div style="text-align: center">
+
+        <form method="POST" enctype="multipart/form-data" action="/modify_avatar/" style="margin-top: 10%">
+        {% csrf_token %}
+        <label style="color: red">{{ error }}</label><br>
+        <input type="file" name="img" style="position: relative;display: inline-block">
+        <input type="submit" value="Upload">
+        </form>
+    </div>
+
+{% endblock %}

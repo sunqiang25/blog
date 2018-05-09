@@ -1,0 +1,749 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 16:39:45 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/sunqiang/Blog/script
+writing pidfile to /root/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /root/sunqiang/Blog/script/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1847810
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1847810 pid: 6495 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6495)
+spawned uWSGI worker 1 (pid: 6497, cores: 1)
+spawned uWSGI worker 2 (pid: 6498, cores: 1)
+spawned uWSGI worker 3 (pid: 6499, cores: 1)
+spawned uWSGI worker 4 (pid: 6500, cores: 1)
+spawned uWSGI worker 5 (pid: 6501, cores: 1)
+unable to stat() /root/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 16:56:17 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/sunqiang/Blog/script
+writing pidfile to /root/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /root/sunqiang/Blog/script/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2474800
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2474800 pid: 6961 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6961)
+spawned uWSGI worker 1 (pid: 6963, cores: 1)
+spawned uWSGI worker 2 (pid: 6964, cores: 1)
+spawned uWSGI worker 3 (pid: 6965, cores: 1)
+spawned uWSGI worker 4 (pid: 6966, cores: 1)
+spawned uWSGI worker 5 (pid: 6967, cores: 1)
+unable to stat() /root/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 17:05:55 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/sunqiang/Blog/script
+writing pidfile to /root/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /root/sunqiang/Nginx/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x22987c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x22987c0 pid: 7196 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7196)
+spawned uWSGI worker 1 (pid: 7198, cores: 1)
+spawned uWSGI worker 2 (pid: 7199, cores: 1)
+spawned uWSGI worker 3 (pid: 7200, cores: 1)
+spawned uWSGI worker 4 (pid: 7201, cores: 1)
+spawned uWSGI worker 5 (pid: 7202, cores: 1)
+unable to stat() /root/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 17:07:54 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/sunqiang/Blog/script
+writing pidfile to /root/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /root/sunqiang/Blog/script/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x16207c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16207c0 pid: 7379 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7379)
+spawned uWSGI worker 1 (pid: 7381, cores: 1)
+spawned uWSGI worker 2 (pid: 7382, cores: 1)
+spawned uWSGI worker 3 (pid: 7383, cores: 1)
+spawned uWSGI worker 4 (pid: 7384, cores: 1)
+spawned uWSGI worker 5 (pid: 7385, cores: 1)
+unable to stat() /root/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 17:22:19 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/sunqiang/Blog/script
+writing pidfile to /root/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /root/sunqiang/Blog/script/uwsgi.sock fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1a1c030
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a1c030 pid: 7774 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7774)
+spawned uWSGI worker 1 (pid: 7776, cores: 1)
+spawned uWSGI worker 2 (pid: 7777, cores: 1)
+spawned uWSGI worker 3 (pid: 7778, cores: 1)
+spawned uWSGI worker 4 (pid: 7779, cores: 1)
+spawned uWSGI worker 5 (pid: 7780, cores: 1)
+unable to stat() /root/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 17:36:20 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/sunqiang/Blog/script
+writing pidfile to /root/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /root/sunqiang/Blog/script/uwsgi.sock fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x99e090
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x99e090 pid: 7931 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7931)
+spawned uWSGI worker 1 (pid: 7933, cores: 1)
+spawned uWSGI worker 2 (pid: 7934, cores: 1)
+spawned uWSGI worker 3 (pid: 7935, cores: 1)
+spawned uWSGI worker 4 (pid: 7936, cores: 1)
+spawned uWSGI worker 5 (pid: 7937, cores: 1)
+unable to stat() /root/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 17:48:03 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /root/sunqiang/Blog/script
+writing pidfile to /root/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/log/nginx/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x15bb800
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x15bb800 pid: 8253 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8253)
+spawned uWSGI worker 1 (pid: 8255, cores: 1)
+spawned uWSGI worker 2 (pid: 8256, cores: 1)
+spawned uWSGI worker 3 (pid: 8257, cores: 1)
+spawned uWSGI worker 4 (pid: 8258, cores: 1)
+spawned uWSGI worker 5 (pid: 8259, cores: 1)
+unable to stat() /root/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+[pid: 8256|app: 0|req: 1/1] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 17:49:39 2018] GET / => generated 31126 bytes in 391 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8259|app: 0|req: 1/2] 103.246.38.196 () {36 vars in 526 bytes} [Sat Mar 24 17:49:40 2018] GET / => generated 31126 bytes in 180 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8256|app: 0|req: 2/3] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 17:49:45 2018] GET / => generated 31126 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8259|app: 0|req: 2/4] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 17:49:53 2018] GET / => generated 31126 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8256|app: 0|req: 3/5] 103.246.38.196 () {36 vars in 558 bytes} [Sat Mar 24 17:49:57 2018] GET /tag/%E6%83%85%E6%84%9F => generated 20286 bytes in 27 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8259|app: 0|req: 3/6] 192.102.204.37 () {50 vars in 961 bytes} [Sat Mar 24 17:49:57 2018] GET /tag/%E6%83%85%E6%84%9F => generated 20286 bytes in 25 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8256|app: 0|req: 4/7] 192.102.204.45 () {50 vars in 959 bytes} [Sat Mar 24 17:53:01 2018] GET /tag/%E6%83%85%E6%84%9F => generated 20286 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8259|app: 0|req: 4/8] 192.102.204.45 () {42 vars in 542 bytes} [Sat Mar 24 17:53:01 2018] GET / => generated 31126 bytes in 62 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 17:57:11 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sunqiang/Blog/script
+writing pidfile to /home/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/log/nginx/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x224a810
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x224a810 pid: 8571 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8571)
+spawned uWSGI worker 1 (pid: 8573, cores: 1)
+spawned uWSGI worker 2 (pid: 8574, cores: 1)
+spawned uWSGI worker 3 (pid: 8575, cores: 1)
+spawned uWSGI worker 4 (pid: 8576, cores: 1)
+spawned uWSGI worker 5 (pid: 8577, cores: 1)
+unable to stat() /home/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+[pid: 8577|app: 0|req: 1/1] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:00:12 2018] GET / => generated 31126 bytes in 200 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8573|app: 0|req: 1/2] 103.246.38.196 () {36 vars in 546 bytes} [Sat Mar 24 18:00:22 2018] GET /category/5 => generated 27292 bytes in 168 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 2/3] 192.102.204.37 () {50 vars in 951 bytes} [Sat Mar 24 18:00:22 2018] GET /category/5/ => generated 27292 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8573|app: 0|req: 2/4] 192.102.204.37 () {48 vars in 929 bytes} [Sat Mar 24 18:00:22 2018] GET /upload/MYXJ_20180120221144_fast.jpg => generated 119520 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 4 headers in 144 bytes (0 switches on core 0)
+[pid: 8574|app: 0|req: 1/5] 103.246.38.196 () {36 vars in 558 bytes} [Sat Mar 24 18:00:26 2018] GET /tag/%E7%88%AC%E8%99%AB => generated 20741 bytes in 169 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 3/6] 192.102.204.37 () {50 vars in 972 bytes} [Sat Mar 24 18:00:26 2018] GET /tag/%E7%88%AC%E8%99%AB => generated 20741 bytes in 26 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8573|app: 0|req: 3/7] 103.246.38.196 () {36 vars in 542 bytes} [Sat Mar 24 18:00:28 2018] GET /get_data => generated 18978 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8577|app: 0|req: 4/8] 155.64.38.90 () {36 vars in 539 bytes} [Sat Mar 24 18:00:29 2018] GET /get_data => generated 18978 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8573|app: 0|req: 4/9] 192.102.204.37 () {50 vars in 967 bytes} [Sat Mar 24 18:00:32 2018] GET /get_data => generated 18978 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 5/10] 192.102.204.37 () {50 vars in 969 bytes} [Sat Mar 24 18:00:35 2018] GET /tag/%E6%83%85%E6%84%9F => generated 20286 bytes in 47 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8573|app: 0|req: 5/11] 192.102.204.37 () {50 vars in 951 bytes} [Sat Mar 24 18:00:38 2018] GET / => generated 31126 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 6/12] 192.102.204.37 () {50 vars in 967 bytes} [Sat Mar 24 18:00:39 2018] GET /get_data => generated 18978 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8573|app: 0|req: 6/13] 192.102.204.37 () {50 vars in 951 bytes} [Sat Mar 24 18:00:41 2018] GET /category/5/ => generated 27292 bytes in 62 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 7/14] 192.102.204.37 () {50 vars in 962 bytes} [Sat Mar 24 18:00:44 2018] GET /category/5/ => generated 27292 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8573|app: 0|req: 7/15] 192.102.204.37 () {50 vars in 962 bytes} [Sat Mar 24 18:00:47 2018] GET /category/5/ => generated 27292 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 8/16] 192.102.204.37 () {50 vars in 972 bytes} [Sat Mar 24 18:00:49 2018] GET /tag/%E7%88%AC%E8%99%AB => generated 20741 bytes in 26 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8573|app: 0|req: 8/17] 103.246.38.196 () {36 vars in 546 bytes} [Sat Mar 24 18:00:53 2018] GET /article/13 => generated 30597 bytes in 69 msecs (HTTP/1.1 200) 4 headers in 224 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 9/18] 192.102.204.37 () {50 vars in 973 bytes} [Sat Mar 24 18:00:54 2018] GET /article/13/ => generated 30597 bytes in 65 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 8573|app: 0|req: 9/19] 103.246.38.196 () {36 vars in 544 bytes} [Sat Mar 24 18:01:09 2018] GET /article/1 => generated 25692 bytes in 45 msecs (HTTP/1.1 200) 4 headers in 224 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 10/20] 192.102.204.37 () {48 vars in 909 bytes} [Sat Mar 24 18:01:09 2018] GET /article/1 => generated 25692 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+Not Found: /artic
+[pid: 8573|app: 0|req: 10/21] 103.246.38.196 () {36 vars in 536 bytes} [Sat Mar 24 18:01:15 2018] GET /artic => generated 4744 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+Not Found: /artic
+[pid: 8577|app: 0|req: 11/22] 192.102.204.37 () {48 vars in 901 bytes} [Sat Mar 24 18:01:15 2018] GET /artic => generated 4744 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /artic
+[pid: 8577|app: 0|req: 12/23] 192.102.204.37 () {48 vars in 899 bytes} [Sat Mar 24 18:01:47 2018] GET /artic => generated 4744 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 8573|app: 0|req: 11/24] 192.102.204.37 () {48 vars in 891 bytes} [Sat Mar 24 18:01:50 2018] GET / => generated 31126 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+Not Found: /s
+[pid: 8577|app: 0|req: 13/25] 103.246.38.196 () {36 vars in 528 bytes} [Sat Mar 24 18:13:04 2018] GET /s => generated 4732 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+Not Found: /s
+[pid: 8573|app: 0|req: 12/26] 192.102.204.45 () {48 vars in 893 bytes} [Sat Mar 24 18:13:04 2018] GET /s => generated 4732 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /s
+[pid: 8577|app: 0|req: 14/27] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:13:26 2018] GET /s => generated 4732 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+Not Found: /s
+[pid: 8573|app: 0|req: 13/28] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:13:27 2018] GET /s => generated 4732 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /s
+[pid: 8577|app: 0|req: 15/29] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:13:43 2018] GET /s => generated 4732 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+Not Found: /s
+[pid: 8573|app: 0|req: 14/30] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:13:45 2018] GET /s => generated 4732 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /s
+[pid: 8577|app: 0|req: 16/31] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:13:45 2018] GET /s => generated 4732 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /s
+[pid: 8573|app: 0|req: 15/32] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:13:45 2018] GET /s => generated 4732 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /s
+[pid: 8574|app: 0|req: 2/33] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:13:46 2018] GET /s => generated 4732 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8577|app: 0|req: 17/34] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:13:50 2018] GET / => generated 31126 bytes in 57 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8573|app: 0|req: 16/35] 192.102.204.45 () {42 vars in 542 bytes} [Sat Mar 24 18:13:50 2018] GET / => generated 31126 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8577|app: 0|req: 18/36] 192.102.204.45 () {50 vars in 951 bytes} [Sat Mar 24 18:13:53 2018] GET /category/5/ => generated 27292 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8573|app: 0|req: 17/37] 192.102.204.45 () {50 vars in 984 bytes} [Sat Mar 24 18:13:53 2018] GET /upload/MYXJ_20180120221144_fast.jpg => generated 119520 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 4 headers in 144 bytes (0 switches on core 0)
+[pid: 8574|app: 0|req: 3/38] 49.95.1.211 () {42 vars in 903 bytes} [Sat Mar 24 18:14:06 2018] GET /category/5 => generated 27292 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 19/39] 49.95.1.211 () {44 vars in 931 bytes} [Sat Mar 24 18:14:12 2018] GET / => generated 31126 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8573|app: 0|req: 18/40] 49.95.1.211 () {44 vars in 941 bytes} [Sat Mar 24 18:14:17 2018] GET /category/5 => generated 27292 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8577|app: 0|req: 20/41] 49.95.1.211 () {44 vars in 947 bytes} [Sat Mar 24 18:14:21 2018] GET /get_data => generated 18978 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+Not Found: /get_dta
+[pid: 8573|app: 0|req: 19/42] 49.95.1.211 () {42 vars in 897 bytes} [Sat Mar 24 18:14:30 2018] GET /get_dta => generated 4750 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 8577|app: 0|req: 21/43] 49.95.1.211 () {40 vars in 722 bytes} [Sat Mar 24 18:14:30 2018] GET /favicon.ico => generated 4762 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 18:15:22 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sunqiang/Blog/script
+writing pidfile to /home/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/log/nginx/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1a54810
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a54810 pid: 8946 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8946)
+spawned uWSGI worker 1 (pid: 8948, cores: 1)
+spawned uWSGI worker 2 (pid: 8949, cores: 1)
+spawned uWSGI worker 3 (pid: 8950, cores: 1)
+spawned uWSGI worker 4 (pid: 8951, cores: 1)
+spawned uWSGI worker 5 (pid: 8952, cores: 1)
+unable to stat() /home/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+[pid: 8951|app: 0|req: 1/1] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:16:05 2018] GET / => generated 31126 bytes in 210 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 1/2] 192.102.204.45 () {42 vars in 542 bytes} [Sat Mar 24 18:16:05 2018] GET / => generated 31126 bytes in 181 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 2/3] 192.102.204.45 () {50 vars in 951 bytes} [Sat Mar 24 18:16:08 2018] GET /category/5/ => generated 27292 bytes in 37 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 2/4] 192.102.204.45 () {42 vars in 612 bytes} [Sat Mar 24 18:16:08 2018] GET /upload/MYXJ_20180120221144_fast.jpg => generated 18319 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 3/5] 192.102.204.45 () {50 vars in 984 bytes} [Sat Mar 24 18:16:08 2018] GET /upload/MYXJ_20180120221144_fast.jpg => generated 18319 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 3/6] 103.246.38.196 () {36 vars in 536 bytes} [Sat Mar 24 18:16:13 2018] GET /categ => generated 18319 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (2 switches on core 0)
+[pid: 8951|app: 0|req: 4/7] 192.102.204.45 () {48 vars in 901 bytes} [Sat Mar 24 18:16:13 2018] GET /categ => generated 18319 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 4/8] 155.64.38.90 () {36 vars in 534 bytes} [Sat Mar 24 18:16:14 2018] GET /categ => generated 18319 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 5/9] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:17:15 2018] GET / => generated 31126 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 5/10] 192.102.204.45 () {42 vars in 542 bytes} [Sat Mar 24 18:17:15 2018] GET / => generated 31126 bytes in 41 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 6/11] 192.102.204.45 () {50 vars in 961 bytes} [Sat Mar 24 18:17:18 2018] GET /tag/%E7%88%AC%E8%99%AB => generated 20741 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 6/12] 103.246.38.196 () {36 vars in 534 bytes} [Sat Mar 24 18:17:38 2018] GET /love => generated 23436 bytes in 19 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8951|app: 0|req: 7/13] 192.102.204.45 () {50 vars in 961 bytes} [Sat Mar 24 18:17:38 2018] GET /love/ => generated 23436 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 7/14] 192.102.204.45 () {50 vars in 978 bytes} [Sat Mar 24 18:17:38 2018] GET /upload/MYXJ_20171028153832_fast.jpg => generated 18319 bytes in 56 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 8/15] 192.102.204.45 () {48 vars in 923 bytes} [Sat Mar 24 18:17:38 2018] GET /upload/MYXJ_20180120221121_fast.jpg => generated 18319 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 8/16] 192.102.204.45 () {48 vars in 923 bytes} [Sat Mar 24 18:17:49 2018] GET /upload/MYXJ_20180120221121_fast.jpg => generated 18319 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (2 switches on core 0)
+[pid: 8951|app: 0|req: 9/17] 103.246.38.196 () {36 vars in 530 bytes} [Sat Mar 24 18:19:28 2018] GET /lo => generated 18373 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 9/18] 192.102.204.37 () {48 vars in 895 bytes} [Sat Mar 24 18:19:28 2018] GET /lo => generated 18373 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 10/19] 192.102.204.45 () {48 vars in 893 bytes} [Sat Mar 24 18:20:20 2018] GET /lo => generated 18400 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 95 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 10/20] 192.102.204.45 () {42 vars in 542 bytes} [Sat Mar 24 18:20:20 2018] GET / => generated 31126 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 11/21] 192.102.204.45 () {48 vars in 893 bytes} [Sat Mar 24 18:23:49 2018] GET /lo => generated 18398 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 95 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 11/22] 192.102.204.45 () {42 vars in 542 bytes} [Sat Mar 24 18:23:49 2018] GET / => generated 31126 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 12/23] 192.102.204.45 () {48 vars in 893 bytes} [Sat Mar 24 18:24:02 2018] GET /lo => generated 18400 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 95 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 12/24] 192.102.204.45 () {48 vars in 891 bytes} [Sat Mar 24 18:24:17 2018] GET / => generated 31126 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8951|app: 0|req: 13/25] 192.102.204.45 () {50 vars in 951 bytes} [Sat Mar 24 18:24:21 2018] GET /category/5/ => generated 27292 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 13/26] 192.102.204.45 () {42 vars in 612 bytes} [Sat Mar 24 18:24:21 2018] GET /upload/MYXJ_20180120221144_fast.jpg => generated 18400 bytes in 17 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 14/27] 192.102.204.45 () {48 vars in 929 bytes} [Sat Mar 24 18:24:21 2018] GET /upload/MYXJ_20180120221144_fast.jpg => generated 18400 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 14/28] 103.246.38.196 () {36 vars in 596 bytes} [Sat Mar 24 18:24:50 2018] GET /admin/Blog_Module/article/20/change => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 152 bytes (2 switches on core 0)
+[pid: 8952|app: 0|req: 1/29] 103.246.38.196 () {36 vars in 598 bytes} [Sat Mar 24 18:24:51 2018] GET /admin/Blog_Module/article/20/change/ => generated 0 bytes in 580 msecs (HTTP/1.1 302) 7 headers in 322 bytes (2 switches on core 0)
+[pid: 8951|app: 0|req: 15/30] 103.246.38.196 () {36 vars in 635 bytes} [Sat Mar 24 18:24:51 2018] GET /admin/login/?next=/admin/Blog_Module/article/20/change/ => generated 1749 bytes in 28 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 15/31] 192.102.204.37 () {50 vars in 1012 bytes} [Sat Mar 24 18:24:51 2018] GET /admin/Blog_Module/article/20/change/ => generated 17427 bytes in 71 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 16/32] 103.246.38.196 () {36 vars in 550 bytes} [Sat Mar 24 18:24:52 2018] GET /admin/jsi18n => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 129 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 16/33] 103.246.38.196 () {36 vars in 526 bytes} [Sat Mar 24 18:24:52 2018] GET / => generated 31126 bytes in 43 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 17/34] 103.246.38.196 () {36 vars in 552 bytes} [Sat Mar 24 18:24:52 2018] GET /admin/jsi18n/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 8948|app: 0|req: 1/35] 103.246.38.196 () {36 vars in 589 bytes} [Sat Mar 24 18:24:52 2018] GET /admin/login/?next=/admin/jsi18n/ => generated 1703 bytes in 280 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 17/36] 192.102.204.37 () {48 vars in 874 bytes} [Sat Mar 24 18:24:52 2018] GET /admin/jsi18n/ => generated 7237 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 8949|app: 0|req: 18/37] 192.102.204.37 () {50 vars in 1010 bytes} [Sat Mar 24 18:25:00 2018] GET /admin/Blog_Module/article/20/change/ => generated 17427 bytes in 67 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 18/38] 192.102.204.37 () {48 vars in 874 bytes} [Sat Mar 24 18:25:00 2018] GET /admin/jsi18n/ => generated 7237 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 8948|app: 0|req: 2/39] 192.102.204.37 () {50 vars in 1010 bytes} [Sat Mar 24 18:25:08 2018] GET /admin/Blog_Module/article/20/change/ => generated 17427 bytes in 85 msecs (HTTP/1.1 200) 7 headers in 373 bytes (2 switches on core 0)
+[pid: 8951|app: 0|req: 19/40] 192.102.204.37 () {48 vars in 874 bytes} [Sat Mar 24 18:25:09 2018] GET /admin/jsi18n/ => generated 7237 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 20/41] 192.102.204.37 () {50 vars in 1010 bytes} [Sat Mar 24 18:29:58 2018] GET /admin/Blog_Module/article/20/change/ => generated 17427 bytes in 54 msecs (HTTP/1.1 200) 7 headers in 373 bytes (2 switches on core 0)
+[pid: 8949|app: 0|req: 19/42] 192.102.204.37 () {48 vars in 874 bytes} [Sat Mar 24 18:29:58 2018] GET /admin/jsi18n/ => generated 7237 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 18:30:26 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sunqiang/Blog/script
+writing pidfile to /home/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/log/nginx/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1770810
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1770810 pid: 9078 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9078)
+spawned uWSGI worker 1 (pid: 9080, cores: 1)
+spawned uWSGI worker 2 (pid: 9081, cores: 1)
+spawned uWSGI worker 3 (pid: 9082, cores: 1)
+spawned uWSGI worker 4 (pid: 9083, cores: 1)
+spawned uWSGI worker 5 (pid: 9084, cores: 1)
+unable to stat() /home/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+[pid: 9080|app: 0|req: 1/1] 192.102.204.37 () {50 vars in 1010 bytes} [Sat Mar 24 18:30:50 2018] GET /admin/Blog_Module/article/20/change/ => generated 17427 bytes in 3833 msecs (HTTP/1.1 200) 7 headers in 373 bytes (2 switches on core 0)
+Sat Mar 24 18:33:49 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (192.102.204.36)
+IOError: write error
+[pid: 9080|app: 0|req: 2/2] 192.102.204.36 () {50 vars in 925 bytes} [Sat Mar 24 18:31:17 2018] GET / => generated 0 bytes in 151704 msecs (HTTP/1.1 500) 2 headers in 0 bytes (1 switches on core 0)
+[pid: 9083|app: 0|req: 1/3] 192.102.204.45 () {52 vars in 937 bytes} [Sat Mar 24 18:33:28 2018] GET /favicon.ico => generated 27 bytes in 23867 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Sat Mar 24 18:33:52 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (192.102.204.37)
+IOError: write error
+[pid: 9084|app: 0|req: 1/4] 192.102.204.37 () {48 vars in 891 bytes} [Sat Mar 24 18:32:39 2018] GET / => generated 0 bytes in 72567 msecs (HTTP/1.1 500) 2 headers in 0 bytes (0 switches on core 0)
+Sat Mar 24 18:33:52 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /category/5/ (192.102.204.45)
+IOError: write error
+[pid: 9082|app: 0|req: 1/5] 192.102.204.45 () {52 vars in 987 bytes} [Sat Mar 24 18:32:17 2018] GET /category/5/ => generated 0 bytes in 94162 msecs (HTTP/1.1 500) 2 headers in 0 bytes (0 switches on core 0)
+Sat Mar 24 18:33:52 2018 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /admin/jsi18n/ (192.102.204.37)
+IOError: write error
+[pid: 9081|app: 0|req: 1/6] 192.102.204.37 () {48 vars in 874 bytes} [Sat Mar 24 18:30:54 2018] GET /admin/jsi18n/ => generated 0 bytes in 177656 msecs (HTTP/1.1 500) 3 headers in 0 bytes (0 switches on core 0)
+[pid: 9080|app: 0|req: 3/7] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:34:33 2018] GET / => generated 27 bytes in 297 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9081|app: 0|req: 2/8] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:34:36 2018] GET / => generated 27 bytes in 40 msecs (HTTP/1.1 500) 2 headers in 92 bytes (2 switches on core 0)
+[pid: 9080|app: 0|req: 4/9] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:34:37 2018] GET / => generated 27 bytes in 37 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9081|app: 0|req: 3/10] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:34:37 2018] GET / => generated 27 bytes in 37 msecs (HTTP/1.1 500) 2 headers in 92 bytes (2 switches on core 0)
+[pid: 9080|app: 0|req: 5/11] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:34:38 2018] GET / => generated 27 bytes in 37 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9082|app: 0|req: 2/12] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:35:12 2018] GET / => generated 27 bytes in 299 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9080|app: 0|req: 6/13] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:35:13 2018] GET / => generated 27 bytes in 36 msecs (HTTP/1.1 500) 2 headers in 92 bytes (2 switches on core 0)
+[pid: 9084|app: 0|req: 2/14] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:35:34 2018] GET / => generated 27 bytes in 403 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9082|app: 0|req: 3/15] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:35:37 2018] GET / => generated 27 bytes in 595 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9082|app: 0|req: 4/16] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:36:58 2018] GET / => generated 27 bytes in 227 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9080|app: 0|req: 7/17] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:36:59 2018] GET / => generated 27 bytes in 36 msecs (HTTP/1.1 500) 2 headers in 92 bytes (2 switches on core 0)
+[pid: 9083|app: 0|req: 2/18] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:37:37 2018] GET / => generated 27 bytes in 300 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9080|app: 0|req: 8/19] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:37:39 2018] GET / => generated 27 bytes in 37 msecs (HTTP/1.1 500) 2 headers in 92 bytes (2 switches on core 0)
+[pid: 9081|app: 0|req: 4/20] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:37:40 2018] GET / => generated 27 bytes in 37 msecs (HTTP/1.1 500) 2 headers in 92 bytes (2 switches on core 0)
+[pid: 9080|app: 0|req: 9/21] 192.102.204.45 () {48 vars in 889 bytes} [Sat Mar 24 18:37:41 2018] GET / => generated 27 bytes in 36 msecs (HTTP/1.1 500) 2 headers in 92 bytes (2 switches on core 0)
+[pid: 9084|app: 0|req: 3/22] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:40:34 2018] GET / => generated 27 bytes in 224 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9080|app: 0|req: 10/23] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:40:35 2018] GET / => generated 27 bytes in 37 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9081|app: 0|req: 5/24] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:40:35 2018] GET / => generated 27 bytes in 60 msecs (HTTP/1.1 500) 2 headers in 92 bytes (2 switches on core 0)
+[pid: 9080|app: 0|req: 11/25] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:40:36 2018] GET / => generated 27 bytes in 37 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9081|app: 0|req: 6/26] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:40:36 2018] GET / => generated 27 bytes in 36 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9080|app: 0|req: 12/27] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:40:36 2018] GET / => generated 27 bytes in 37 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 9082|app: 0|req: 5/28] 192.102.204.37 () {48 vars in 889 bytes} [Sat Mar 24 18:41:19 2018] GET / => generated 27 bytes in 704 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Gracefully killing worker 5 (pid: 8577)...
+Gracefully killing worker 2 (pid: 8574)...
+Gracefully killing worker 2 (pid: 8949)...
+Gracefully killing worker 1 (pid: 8948)...
+Gracefully killing worker 3 (pid: 8950)...
+...brutally killing workers...
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 8573)...
+Gracefully killing worker 3 (pid: 8575)...
+Gracefully killing worker 4 (pid: 8576)...
+...brutally killing workers...
+worker 1 buried after 2 seconds
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 5 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 4 buried after 12 seconds
+worker 2 buried after 12 seconds
+worker 1 buried after 12 seconds
+worker 2 buried after 14 seconds
+worker 3 buried after 16 seconds
+worker 5 buried after 19 seconds
+worker 5 buried after 19 seconds
+binary reloading uWSGI...
+chdir() to /home/sunqiang/Blog/script
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+worker 3 buried after 24 seconds
+binary reloading uWSGI...
+chdir() to /home/sunqiang/Blog/script
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/var/log/nginx/uwsgi.sock)
+running /usr/local/bin/uwsgi
+worker 3 buried after 24 seconds
+worker 4 buried after 24 seconds
+binary reloading uWSGI...
+chdir() to /home/sunqiang/Blog/script
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/var/log/nginx/uwsgi.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+[uwsgi-static] added mapping for /static => /home/sunqiang/Blog/static
+[uWSGI] getting INI configuration from uwsgi.ini
+[uwsgi-static] added mapping for /static => /home/sunqiang/Blog/static
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 18:46:19 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sunqiang/Blog/script
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 18:46:19 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sunqiang/Blog/script
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/sunqiang/Blog
+your processes number limit is 3826
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /var/log/nginx/uwsgi.sock fd 3
+uwsgi socket 0 inherited UNIX address /var/log/nginx/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1227a50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+Python main interpreter initialized at 0x2528a50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x2528a50 pid: 8571 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 8571)
+spawned uWSGI worker 1 (pid: 11987, cores: 1)
+spawned uWSGI worker 2 (pid: 11988, cores: 1)
+spawned uWSGI worker 3 (pid: 11989, cores: 1)
+spawned uWSGI worker 4 (pid: 11990, cores: 1)
+spawned uWSGI worker 5 (pid: 11991, cores: 1)
+unable to stat() /home/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x1227a50 pid: 8946 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 8946)
+spawned uWSGI worker 1 (pid: 11992, cores: 1)
+spawned uWSGI worker 2 (pid: 11993, cores: 1)
+spawned uWSGI worker 3 (pid: 11994, cores: 1)
+spawned uWSGI worker 4 (pid: 11995, cores: 1)
+spawned uWSGI worker 5 (pid: 11996, cores: 1)
+unable to stat() /home/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Mar 24 19:43:09 2018] ***
+compiled with version: 5.4.0 20160609 on 24 March 2018 08:21:30
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: sunqiang-test
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sunqiang/Blog/script
+writing pidfile to /home/sunqiang/Blog/script/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/sunqiang/Blog
+your processes number limit is 3825
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/log/nginx/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1533810
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1533810 pid: 1700 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1700)
+spawned uWSGI worker 1 (pid: 1702, cores: 1)
+spawned uWSGI worker 2 (pid: 1703, cores: 1)
+spawned uWSGI worker 3 (pid: 1704, cores: 1)
+spawned uWSGI worker 4 (pid: 1705, cores: 1)
+spawned uWSGI worker 5 (pid: 1706, cores: 1)
+unable to stat() /home/sunqiang/Blog/reload, events will be triggered as soon as the file is created
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/sunqiang/Blog/script
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/var/log/nginx/uwsgi.sock)
+running /usr/local/bin/uwsgi
+execvp(): No such file or directory [core/master_utils.c line 542]
+VACUUM: pidfile removed.
+VACUUM: unix socket /var/log/nginx/uwsgi.sock removed.

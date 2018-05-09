@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+{% load blog_tags %}
+{% block title%}孙强的个人博客{% endblock %}
+
+{% block body %}
+
+{% if error_Message %}
+    <h2 style="text-align: center;color: red;"><i class="fa fa-meh-o" aria-hidden="true"></i> Oops!{{ error_Message }}</h2>
+{% endif %}
+{% for article in articles_list %}
+
+    <div id="post-392"
+         class="post-392 post">
+
+        <div class="post-aside">
+            <p class="post-date ">{{ article.created_time.year }}<br/>{{ article.created_time.month }}<br/>{{ article.created_time.day }}</p>
+        </div>
+
+        <div class="post-content">
+
+            <h2 class="entry-title"><a href="/article/{{ article.id }}/" rel="bookmark">{% ifequal article.property 'o' %}<span style='color:red'>[原创] </span>{% else %}<span style='color:red'>[转载] </span>{% endifequal %}{{ article.title }}</a></h2>
+
+            <div class="post-meta">
+                <p>
+                    <span class="date_publish"><i class="fa fa-user"></i> {{ article.author }}</span>
+
+                    <span class="categories"><i class="fa fa-eye"></i> <a href="#">{{ article.views }} views</a></span>
+                    <span class="categories">Category: <a href="#">{{ article.category }}</a></span>
+                    <span class="tags"><i class="fa fa-tags"></i>Tags: {%for tag in article.tags.all%}<a href="/tag/{{tag}}">{{ tag}}</a>{%if not forloop.last%},{%endif%}{%endfor%}</span>
+
+                    <span class="comments"><i class="fa fa-pencil-alt"></i> <a href="/article/{{ article.id }}/#comments" rel="comments">{{ article.comment_set.count }} Comments</a></span>
+                    <span class="comments"><i class="fa fa-heart"></i> <a href="#" title="0">{{ article.likes }} like</a></span>
+                    <span class="edit"><i class="fa fa-edit"></i> <a href="/admin/Blog_Module/article/{{ article.id }}/change/" title="{{ article.title }}">Edit</a></span>
+
+                </p>
+            </div><!-- .post-meta -->
+
+            <div class="postBody">
+                <p>
+                <p>{{ article.body |truncatechars:200 }}<i style="float: right"><a href="/article/{{ article.id }}/">阅读全文...</a></i></p>
+                    <p><img src="{{ article.imgurl }}" alt="" /></p>
+
+                </p>
+            </div>
+        </div><!-- .post-content -->
+
+    </div> <!-- .post -->
+{% endfor %}
+          {% if is_paginated %}
+				<ul class="pager">
+                    {% if page_obj.has_previous %}
+					<li class="previous"><a href="?page={{ page_obj.previous_page_number }}">&larr; Previous</a></li>
+                    {% endif %}
+                    <li class="current">Page {{ page_obj.number }} of {{ paginator.num_pages }}</li>
+                    {% if page_obj.has_next %}
+					<li class="next"><a href="?page={{ page_obj.next_page_number }}">Next &rarr;</a></li>
+                    {% endif %}
+				</ul>
+                {% endif %}
+{%endblock%}
+

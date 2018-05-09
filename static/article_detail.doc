@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title%}{{detail.title}}{% endblock %}
+
+{% block body %}
+
+<article>
+
+  <div id="post-{{detail.id}}" class="post-{{detail.id}} post p1">
+
+        <div>
+
+            <h2 class="entry-title" style="text-align:center;"><a href="/article/{{ detail.id }}/" rel="bookmark">{% ifequal detail.property 'o' %}<span style='color:red'>[原创] </span>{% else %}<span style='color:red'>[转载] </span>{% endifequal %}{{ detail.title }}</a></h2>
+
+            <div class="post-meta" style="margin-left:10%;">
+                <p>
+                    <span class="date_publish"><i class="fa fa-user"></i> {{ detail.author }}</span>
+		    <span class="categories"><i class="fa fa-clock-o"></i>{{detail.created_time}}</span>
+                    <span class="categories"><i class="fa fa-eye"></i> <a href="#">{{ detail.views }} views</a></span>
+                    <span class="categories">Category: <a href="#">{{ detail.category }}</a></span>
+                    <span class="tags"><i class="fa fa-tags"></i>Tags: {% for tag in detail.tags.all %}<a href="/tag/{{tag}}">{{tag}}</a>{% if not forloop.last %},{%endif%}{%endfor%}</span>
+
+                    <span class="comments"><i class="fa fa-pencil-alt"></i> <a href="/article/{{ detail.id }}/#comments" rel="comments">{{ detail.comment_set.count }} Comments</a></span>
+                    <span class="comments"><i class="fa fa-heart"></i> <a href="#" title="0">{{ detail.likes }} like</a></span>
+                    <span class="edit"><i class="fa fa-edit"></i> <a href="/admin/Blog_Module/article/{{ detail.id }}/change/" title="{{ detail.title }}">Edit</a></span>
+
+                </p>
+            </div><!-- .post-meta -->
+
+            <div class="postBody">
+                <p>
+                    <p>{{ detail.body |safe }}</p>
+
+                </p>
+            </div>
+        </div><!-- .post-content -->
+
+    </div> <!-- .post -->
+
+<marquee direction=left behavior=scroll loop=-1 scrollamount=10 scrolldelay=10 align=top height=100 width=100% size="5" hspace=20 vspace=10 onmouseover=this.stop() onmouseout=this.start()><h1><strong>著作权归作者所有，欢迎转载，请务必注明出处！</strong></h1></marquee>
+</article>
+
+<br>
+<div>
+    <a href="/article/{{ pre_detail.id }}/" id="previousArticle"><label><<</label> 上一篇 {{ pre_detail.title }}</a>
+    <a href="/article/{{ nex_detail.id}}/" style="float: right" id="nextArticle">下一篇 {{ nex_detail.title }}<label>>></label></a>
+</div>
+<br><br>
+
+<h3><i class="fa fa-list"></i> Comment List</h3><br><br><br><br>
+
+                            <ul class="row comment-list list-unstyled" id="comments" style="box-shadow:1px 1px 2px #A7A8AD;background:#fff;border-radius:5px;" >
+                            {% for comment in comment_list %}
+				
+
+				<span class="fa fa-user-circle fa-4x" aria-hidden="true" style="float:left;"></span>
+				<div sryle="margin-left:15%">
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="nickname" id="{{comment.id}}">{{ comment.name }}</span>
+                                <span class="fa fa-clock-o"></span>&nbsp;<time class="submit-date">{{ comment.created_time }}</time>
+<a href="javascript:void(0);" onclick="return ReplyComment({{comment.id}})" style="color:red">[Reply]</a>
+				&nbsp;&nbsp;<li class="content-item">
+                                <div class="text" style="text-indent: 1em;">
+                                {{ comment.text }}
+                                
+                            		</li>
+				</div>
+
+<hr>
+                            {% empty %}
+                                暂无评论
+                                <hr>
+                            {% endfor %}
+                            </ul>
+
+                                 <h3><i class="fa fa-comments"></i> Comments</h3><br><br><br><br>
+{% if request.user.is_authenticated %}
+    {% if request.user.is_active %}
+                    <form action="/comment/post/{{detail.pk}}/" method="post" class="comment-form" >
+                          {% csrf_token %}
+                          <div class="row well">
+
+                            <div class="col-md-20">
+                              <label for="{{ form.name.id_for_label }}">昵称：</label>
+                              {{ request.user.username }}&nbsp;&nbsp;<span id="user_part" style="position: absolute"></span>
+                              {{ form.name.errors }}
+                            </div>
+                            
+                            <div class="col-md-20">
+                              <label for="{{ form.text.id_for_label }}">评论内容：</label><br>
+                              {{ form.text }}
+                              {{ form.text.errors }}
+                              <br><button type="submit" class="comment-btn" style="float: inherit">发表评论</button>
+                            </div>
+                          </div>
+                    </form>
+{% else %}
+<h4 style="text-align: center">你还没有激活,请查看邮件并激活账号！</h4>
+{% endif %}
+{% else %}
+<h4 style="text-align: center">你还没有登录，登陆后才可以发表评论！！<a href="#" data-toggle="modal" data-target="#LoginModal">登录</a>or <a href="#" data-toggle="modal" data-target="#RegModal">注册</a</h4>
+{% endif %}
+<!--
+
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2160970"></script>
+-->
+    <script>
+        //document.getElementById('wrap').style.display='none';
+        var lastArticleID = {{ Last_id }};
+        var currentId = {{ detail.id }};
+        if (lastArticleID == currentId){
+            document.getElementById('nextArticle').style.display='none';
+        }if (currentId == 1){
+            document.getElementById('previousArticle').style.display='none';
+        }
+
+    </script>
+
+    <script src="{% static 'js/copy_policy.js' %}"></script>
+<script>
+    function ReplyComment(n){
+        var i = $('#'+n).text();
+        return $(".emojionearea-editor").focus(),$(".emojionearea-editor").text("@"+i+'\n'+$(".emojionearea-editor").text());
+}
+</script>
+{% endblock %}

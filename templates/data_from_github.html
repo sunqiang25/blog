@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% load admin_urls %}
+
+{% block title%}孙强的个人博客{% endblock %}
+
+
+{% block body %}
+    <br><br>
+    <form action="{% url 'Blog:get_data' %}" method="get" style="text-align: center">
+        <input type="text" name="keyword" placeholder="请输入你想查询的内容，如：blog" size="70%">
+        <input type="submit" value="Search">
+    </form><br><br>
+    {% if error_Message %}
+    <h2 style="text-align: center;color: red;"><i class="fa fa-smile-o" aria-hidden="true"></i> 你可以在上方的搜索框内搜索你要查找的内容，然后你就会发现在Github里大家都是用什么语言编写它的，赶快试一下吧~</h2>
+    {% endif %}
+    <div>{{ bar_data|safe }}</div><br>
+    <h2 style="text-align: center;color: red;">你也可以点击<a href="{% url 'Blog:AboutMe' %}">这里</a>查看更多数据可视化的示例。</h2>
+{% endblock %}

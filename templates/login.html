@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load admin_urls %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+
+<form action="{% url 'account:login' %}" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="text" name="username" id="username" placeholder="Please input your name...">
+    <input type="password" name="password" id="password" placeholder="Please input your password" value="">
+    <input type="email" name="email" id="email" placeholder="Please input your email">
+    <input type="submit" value="Login">
+</form>
+
+</body>
+</html>

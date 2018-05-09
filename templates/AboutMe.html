@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% load blog_tags %}
+{% block title%}孙强的个人博客{% endblock %}
+
+{% block body %}
+    <div>{{ result|safe }}</div>
+    <div>{{ result1|safe }}</div>
+    <div>{{bar_result|safe}}</div>
+    <div>{{liquid_result|safe}}</div>
+    <div>{{pie_result|safe}}</div>
+    <div>{{l3d_result|safe}}</div>
+{%endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Sunqiang的博客{% endblock %}
+
+{% block body %}
+    {#显示消息的页面#}
+    <div >
+        <h2 style="line-height:300%;text-align: center">{{message|safe}}</h2>
+
+    </div>
+
+
+
+    <script type="text/javascript">
+        {#页面调整控制#}
+        {% if goto_page %}
+            $(function(){
+                window.setTimeout(function(){
+                    window.location = '{{goto_url}}';
+                },5000);
+            });
+        {% endif %}
+    </script>
+{% endblock %}

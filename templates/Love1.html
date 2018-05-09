@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load blog_tags %}
+{% block body %}
+
+
+
+	<style type="text/css">
+		*{ margin:0; padding: 0; } 
+		#main{ position: relative;
+			-webkit-column-width:100px;
+            -moz-column-width:100px;
+            column-width:200px;
+        }
+		.box{ /*内边距*/ padding:0 ; float: left; }
+		.pic{ /*边框*/ border:1px solid #dddddd; }
+		.pic img{ width: 200px; }
+
+    .load-more{
+	padding:0 15px;
+	width:120px;
+	height:30px;
+	background-color:#D31733;
+	color:#fff;
+	line-height:30px;
+	text-align:center;
+	border-radius:5px;
+	margin:20px auto;
+	border:0 none;
+	font-size:16px;
+	display:none;
+}
+    .load-more:hover{
+        cursor: pointer;
+    }
+	</style>
+
+
+
+    <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <div class="load_title">Waiting...<br></div>
+    </div>
+
+
+<div id="main">
+
+</div>
+<hr>
+<div class="load-more">Load More</div>
+<hr>
+<script>
+    $(function () {
+        var counter = 0;
+        var pageStart = 0;
+        var pageSize = 20;
+
+        getData(pageStart,pageSize);
+        $(document).on('click','.load-more',function () {
+            counter ++;
+            pageStart = counter*pageSize;
+            getData(pageStart,pageSize);
+        });
+
+        function getData(offset,size) {
+            var data = {{ file_list|safe}};
+            var sum = data.length;
+            var result = '';
+            if (sum-offset < size){
+                size = sum - offset;
+            }
+            for(var i=offset; i<(offset+size);i++){
+                result +='<div class="box"><div class="pic">'+'<img src="/upload/Love/'+data[i]+'"'+'</div></div>';
+            }
+            console.log(result)
+            $('#main').append(result);
+
+            if ((offset+size) >=sum){
+                $('.load-more').hide();
+            }else {
+                $('.load-more').show();
+            }
+        }
+
+    })
+</script>
+
+<!-- WaterFall
+<script type="text/javascript">
+$(window).on('load',function () {
+	waterFall();
+	$(window).on('scroll',function () {
+		if (checkWillLoad()){
+			var data = {'dataImg':[{'img':"{% static 'image/1.jpg'%}"},{'img':"{% static 'image/1.jpg'%}"},{'img':"{% static 'image/1.jpg'%}"},{'img':"{% static 'image/1.jpg'%}"}]};
+			$.each(data.dataImg,function (index,value){
+				var newBox = $('<div>').addClass('box').appendTo($('#main'));
+				var newPic = $('<div>').addClass('pic').appendTo($(newBox));
+				$('<img>').attr('src',$(value).attr('img')).appendTo($(newPic));
+                   })
+			waterFall();
+			}
+		});
+	});
+
+
+	function waterFall(){
+		var allBox = $('#main > .box');
+		var boxWidth = $(allBox).eq(0).outerWidth();
+		var screenWidth = $(window).width();
+		var cols = Math.floor( screenWidth/boxWidth);
+		$('#main').css({
+        	'width':cols * boxWidth + 'px',
+        	'margin':'0 auto'
+    	});
+    	var heightArr = [];
+    	$.each(allBox,function (index,value) {
+    		var boxHeight = $(value).outerHeight();
+    		if(index < cols)
+        	{
+            heightArr[index] = boxHeight;
+        	}else{
+        		var minBoxHeight = Math.min.apply(null,heightArr);
+        		var minBoxIndex = $.inArray(minBoxHeight,heightArr);
+        		$(value).css({
+                	'position':'absolute',
+                	'top':minBoxHeight + 'px',
+                	'left':minBoxIndex * boxWidth + 'px'
+            	});
+            	heightArr[minBoxIndex] += boxHeight;
+        	}
+	})
+	}
+	function checkWillLoad() { //直接取出最后一个盒子 
+		var lastBox = $('#main > div').last(); //取出最后一个盒子高度的一半 + 头部偏离的位置 
+		var lastBoxDis = $(lastBox).outerHeight() + $(lastBox).offset().top; //求出浏览器的高度 
+		var clientHeight = $(window).height(); //求出页面偏离浏览器高度 
+		var scrollTopHeight = $(window).scrollTop(); //比较返回 
+		return lastBoxDis <= clientHeight + scrollTopHeight; 
+	}
+
+</script>
+-->
+
+
+{% endblock %}
