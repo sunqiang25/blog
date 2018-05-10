@@ -49,7 +49,6 @@ class blog_index(ListView):
                                         #'markdown.extensions.toc',
                                     #])
         return article_list
-# Create your views here.
 
 def blog_detail(request,pk):
 
